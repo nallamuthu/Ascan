@@ -1,16 +1,17 @@
 import sys
 import argparse
 import shutil
-from basic_operation import *
-from sql_initialize import *
-from execute_command import *
+from Basic.basic_operation import *
+from Basic.sql_initialize import *
+from Basic.dbtoexcel import *
+from Basic.execute_command import *
 from Scanner.nmap_scanner import *
 from Scanner.certificate_scanner import *
 from Scanner.header_scanner import *
 from Scanner.testssl_scanner import *
 from Scanner.sslyze_scanner import *
 from Scanner.prerequisite_scanner import *
-from dbtoexcel import *
+
 
 
 #Parse the input parameters

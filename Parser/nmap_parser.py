@@ -4,7 +4,7 @@
 
 #pip install xmltodict
 import xmltodict
-from basic_operation import *
+from Basic.basic_operation import *
 
 #Function to parse the xml file
 def parse_nmap_xml_file(input_file):

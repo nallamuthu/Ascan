@@ -1,6 +1,6 @@
 import sqlite3
 import os
-from basic_operation import *
+from Basic.basic_operation import *
 
 #Read the sql query from the sql file and create DB and execute it
 def readData():

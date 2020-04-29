@@ -2,7 +2,7 @@ import socket
 import os
 import time
 import importlib
-from execute_command import *
+from Basic.execute_command import *
 
 '''
 def check_prerequisite():

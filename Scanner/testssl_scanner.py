@@ -1,8 +1,9 @@
 #Perform the testssl scan and save it to CSV file
-from execute_command import * 
-from sql_execute import *
+from Basic.execute_command import * 
+from Basic.sql_execute import *
+from Basic.basic_operation import *
 from Parser.testssl_parser import *
-from basic_operation import *
+
 
 
 #Get the result from the parse file and save it to Database

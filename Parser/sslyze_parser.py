@@ -2,7 +2,7 @@
 #Input - SSLYZE Output XML File
 #Output - Dictonary (Contains the hostname, ip, port, SSL versions and respective weak ciphers if any)
 import xml.etree.ElementTree as ET
-from basic_operation import *
+from Basic.basic_operation import *
 
 #Global Variables - set all the required to N/A
 result_dict={}

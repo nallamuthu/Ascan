@@ -2,7 +2,7 @@
 #Input   - testssl out csv file
 #Output  - Dictonary contains ssl vulnerability details
 import csv
-from basic_operation import *
+from Basic.basic_operation import *
 
 #Function call to parser the CSV File
 def parse_testssl_csv_file(input_file):

@@ -1,8 +1,9 @@
 #Perform the NMAP scan and save it to XML file
-from execute_command import * 
-from sql_execute import *
+from Basic.execute_command import * 
+from Basic.sql_execute import *
+from Basic.basic_operation import *
 from Parser.nmap_parser import *
-from basic_operation import *
+
 
 
 

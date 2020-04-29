@@ -1,10 +1,11 @@
 #Perform the sslyze scan and save it to XML file
 import xml.etree.ElementTree as ET
 from xlrd import *
-from execute_command import *
-from sql_execute import *
+from Basic.execute_command import *
+from Basic.sql_execute import *
+from Basic.basic_operation import *
 from Parser.sslyze_parser import *
-from basic_operation import *
+
 
 
 

@@ -1,7 +1,7 @@
 import OpenSSL
 import ssl, socket
 from datetime import timedelta, date
-from sql_execute import *
+from Basic.sql_execute import *
 
 #Get Certificate Details
 def cert_scan_parser(hostname,port):

@@ -1,7 +1,7 @@
 import requests
 import urllib3 #to supress the warning
-from sql_execute import *
-from basic_operation import *
+from Basic.sql_execute import *
+from Basic.basic_operation import *
 
 #Suppress all the request ssl error
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
