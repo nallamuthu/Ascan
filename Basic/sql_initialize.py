@@ -4,7 +4,7 @@ from Basic.basic_operation import *
 
 #Read the sql query from the sql file and create DB and execute it
 def readData():
-	f = open('query.sql', 'r')
+	f = open('Basic/query.sql', 'r')
 	with f:
 		data = f.read()
 		return data
