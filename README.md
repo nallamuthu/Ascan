@@ -3,8 +3,9 @@
 Tools take IP's as input from the text file and perform the scans. Tools generated output are stored and final summary is stored in database and Excel
 
 ## Pre-requisite:
-* NMAP
-* TESTSSL.SH
+* pip install -r requirements.txt
+* NMAP (apt install nmap)
+* TESTSSL.SH (apt install testssl.sh)
 
 ## Scanner:
 * NMAP - Top ports Scan
