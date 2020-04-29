@@ -4,13 +4,14 @@ import shutil
 from basic_operation import *
 from sql_initialize import *
 from execute_command import *
-from nmap_scanner import *
-from certificate_scanner import *
-from header_scanner import *
-from testssl_scanner import *
-from sslyze_scanner import *
+from Scanner.nmap_scanner import *
+from Scanner.certificate_scanner import *
+from Scanner.header_scanner import *
+from Scanner.testssl_scanner import *
+from Scanner.sslyze_scanner import *
+from Scanner.prerequisite_scanner import *
 from dbtoexcel import *
-from prerequisite_scanner import *
+
 
 #Parse the input parameters
 my_parser = argparse.ArgumentParser(description='Pass the input file contains the IP to perform the scan')
