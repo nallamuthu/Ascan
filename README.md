@@ -7,12 +7,16 @@ Tools take IP's as input from the text file and perform the scans. Tools generat
 * NMAP (apt install nmap)
 * TESTSSL.SH (apt install testssl.sh)
 
-## Scanner:
+## Scanners:
 * NMAP - Top ports Scan
 * SSLYZE - SSL Vulnerability Scan
 * TESTSSL - Weak Ciphers Scan
 * HEADER - HTTP Security Headers Scan
 * CERTIFICATE - Certificate Scan
+
+
+## Execution:
+* python main.py -i ip_file.txt
 
 ## Output
 * Sqlite DB File
