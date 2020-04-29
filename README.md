@@ -1,6 +1,6 @@
 # :a: Ascan :a:
 
-Tool take IP's as input from the text file and perform the scans. Tool generated output are stored and final summary is stored in database and Excel
+Tool take IP's as input from the text file and perform the scans. Tools generated output are stored and final summary is stored in database and Excel
 
 ## Pre-requisite:
 * pip install -r requirements.txt
