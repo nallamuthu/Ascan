@@ -1,4 +1,4 @@
-# :a: Ascan - Python3 script :a:
+# :a: Ascan :a:
 
 Tools take IP's as input from the text file and perform the scans. Tools generated output are stored and final summary is stored in database and Excel
 
