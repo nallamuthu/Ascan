@@ -10,9 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-- script: whoami
-  displayName: 'Run a one-line script'
+- script: |
+    echo Hello, world!
+    ipconfig
+    whoami
+    net user
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
