@@ -12,9 +12,8 @@ pool:
 steps:
 - script: |
     echo Hello, world!
-    ipconfig
     whoami
-    net user
+    hostname
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
